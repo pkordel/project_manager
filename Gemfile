@@ -15,4 +15,9 @@ gem 'ruby-debug19'
 # and rake tasks are available in development mode:
 group :development, :test do
   gem "rspec-rails", ">= 2.0.0.beta.22"
+  gem "mongrel", "1.2.0.pre2"
+  gem "cucumber", :git => "git://github.com/aslakhellesoy/cucumber.git"
+  gem "cucumber-rails", :git => "git://github.com/e2/cucumber-rails.git", :branch => "capybara_node_rename"
+  gem "capybara", :git => "git://github.com/jnicklas/capybara.git"
+  gem "database_cleaner", :git => "git://github.com/bmabey/database_cleaner.git"
 end
